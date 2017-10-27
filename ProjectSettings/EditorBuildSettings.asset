@@ -69,6 +69,24 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/Start Scenes/Prison Darkness.unity
     guid: f6d277ebd9732704097bceb7b97b6296
   - enabled: 1
+    path: Assets/Scenes/Game Scenes/Endgame/Ending.unity
+    guid: 2a842617bdc65c34687d1cda05f08a32
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Endgame/EndGame Deeper Woods 2.unity
+    guid: 05faefdc0e410684894bbebd49638a6c
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Endgame/EndGame Deepest Woods 3.unity
+    guid: e8b3de22e60596a4789f92c3d9db4695
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Endgame/EndGame Woods End.unity
+    guid: e77cc82c8ec3b3a4997ec5d0cf11614b
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Endgame/Beast End.unity
+    guid: c9434afafd5bb32439f3aaed1f9e9d86
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Endgame/EndGame Woods.unity
+    guid: 11becc8c1c2380e4abe71aa61297ddba
+  - enabled: 1
     path: Assets/Scenes/Placeholder/Mechanics.unity
     guid: d4010adb7f008cd4794bdf58897d3d6b
   - enabled: 1

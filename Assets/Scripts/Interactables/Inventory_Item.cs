@@ -31,7 +31,7 @@ public class Inventory_Item : Use_Interaction {
 	public override void HandleClick ()
 	{
 		if (Player_Manager.instance.GetPlayerActive ()) {
-			if (SceneManager.GetActiveScene ().name == useSceneName) {
+			if (SceneManager.GetActiveScene ().name == useSceneName || useSceneName == "") {
 				CallActions ();
 			} else 
 			{

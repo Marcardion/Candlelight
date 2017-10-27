@@ -151,16 +151,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 787.2907
-      objectReference: {fileID: 0}
-    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -431.71353
-      objectReference: {fileID: 0}
     - target: {fileID: 224788166917276742, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
@@ -176,19 +166,150 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -443.51352
       objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
+    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
-      propertyPath: debugInventory
-      value: 0
+      propertyPath: m_LocalPosition.x
+      value: 787.2907
       objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
+    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
-      propertyPath: debugGameKeys
-      value: 0
+      propertyPath: m_LocalPosition.y
+      value: -431.71353
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &482086342
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 482086347}
+  - component: {fileID: 482086346}
+  - component: {fileID: 482086345}
+  - component: {fileID: 482086344}
+  - component: {fileID: 482086343}
+  m_Layer: 0
+  m_Name: John Warning
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &482086343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 482086342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4fe0fb2fa417b944882feaeda52d180, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableItem: {fileID: 482086344}
+  cursorFrame1: {fileID: 2800000, guid: 74d5066abba2e0d489a2da6d0d6fd5ba, type: 3}
+  cursorFrame2: {fileID: 2800000, guid: 15087d22bd21e94438c6f167b2374f95, type: 3}
+  description: Parece que um aviso foi colocado neste armario trancado.
+  soundClip: {fileID: 0}
+  actions:
+  - {fileID: 912819465}
+--- !u!114 &482086344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 482086342}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9100a076cc3c244e86d15e2e0f41c11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!61 &482086345
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 482086342}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.68, y: 0.49}
+    newSize: {x: 19.2, y: 10.8}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.68, y: 0.49}
+  m_EdgeRadius: 0
+--- !u!212 &482086346
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 482086342}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 21300000, guid: 740c1b925929e65489ea5cef00f9e0c9, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 19.2, y: 10.8}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+--- !u!4 &482086347
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 482086342}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.6, y: 2.48, z: 0}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
+  m_Children:
+  - {fileID: 912819464}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &688909633
 Prefab:
   m_ObjectHideFlags: 0
@@ -268,6 +389,49 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &912819463
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 912819464}
+  - component: {fileID: 912819465}
+  m_Layer: 0
+  m_Name: StartDialog
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &912819464
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912819463}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1787589922}
+  m_Father: {fileID: 482086347}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &912819465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 912819463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26240218b18769c4c84bdde0f14e6537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogMessages:
+  - {fileID: 1787589923}
 --- !u!1001 &1048190428
 Prefab:
   m_ObjectHideFlags: 0
@@ -603,6 +767,59 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1787589921
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1787589922}
+  - component: {fileID: 1787589923}
+  m_Layer: 0
+  m_Name: Message
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1787589922
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787589921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 912819464}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1787589923
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1787589921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2c6a986658b6414781d785c1db09e3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  textFont: {fileID: 12800000, guid: 8e67f5eaf585b1f4c901be7202df9c8c, type: 3}
+  textColor: {r: 1, g: 0.555071, b: 0.21323532, a: 1}
+  messages:
+  - Para Amanda e George.
+  - "Estou lacrando esse armario, para nossa seguran\xE7a."
+  - "Recentemente tivemos um surto de inc\xEAndios espont\xE2neos no bosque ao redor. "
+  - "Como as \xE1rvores s\xE3o muito secas, \xE9 muito facil de um inc\xEAndio se
+    espalhar por aqui."
+  - "O armario estava repleto de coisas inflamaveis, ent\xE3o era um risco de causar
+    um grande inc\xEAndio na mans\xE3o."
+  - "Caso voc\xEAs precisem de tochas ou algo assim, podem me pedir. Sempre carrego
+    algumas comigo."
+  - '- John'
 --- !u!1001 &1961842909
 Prefab:
   m_ObjectHideFlags: 0

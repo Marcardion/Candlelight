@@ -37,7 +37,7 @@ public class Interactable_Object : MonoBehaviour {
 
 	public virtual void HandleEnter()
 	{
-		if (Player_Manager.instance.GetPlayerActive()) 
+		if (Player_Manager.instance.GetPlayerActive() && (GetComponent<Collider2D> ().enabled)) 
 		{
 			isOver = true;
 			StartCoroutine (AnimateCursor ());
@@ -48,7 +48,7 @@ public class Interactable_Object : MonoBehaviour {
 
 	public virtual void HandleOver()
 	{
-		if (Player_Manager.instance.GetPlayerActive ()) {
+		if (Player_Manager.instance.GetPlayerActive () && (GetComponent<Collider2D> ().enabled)) {
 			if (isOver == false) {
 				isOver = true;
 				StartCoroutine (AnimateCursor ());

@@ -351,7 +351,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
+  m_ReferencePixelsPerUnit: 1
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 800, y: 600}
   m_ScreenMatchMode: 0
@@ -432,7 +432,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 397546284}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.5, y: -111.30001, z: 0}
+  m_LocalPosition: {x: 0.5, y: -125.00001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 909990859}
@@ -442,7 +442,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.5, y: -111.3}
+  m_AnchoredPosition: {x: 0.5, y: -125}
   m_SizeDelta: {x: 268.76, y: 52.95}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &397546286
@@ -584,7 +584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bc181d8e8b2d4c141aa363473a6995f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
 --- !u!1 &524785258
 GameObject:
   m_ObjectHideFlags: 0
@@ -819,7 +818,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f5844a55f289046959c6192b191438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   sceneName: Prison
 --- !u!1 &985498029
 GameObject:
@@ -866,7 +864,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cba7e22f31637c142a11c1eecb342810, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
 --- !u!1 &1023998792
 GameObject:
   m_ObjectHideFlags: 0
@@ -1066,7 +1063,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 5
-  m_Sprite: {fileID: 21300000, guid: def6f9be954488f46bc529882aa1587c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7d790bd43678e9a418ac6efaeddd2d3d, type: 3}
   m_Color: {r: 0.8088235, g: 0.8088235, b: 0.8088235, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1084,7 +1081,7 @@ Transform:
   m_GameObject: {fileID: 1334584452}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.16088247, y: 2.13, z: 0}
-  m_LocalScale: {x: 0.8, y: 0.7, z: 1}
+  m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children:
   - {fileID: 1575009545}
   m_Father: {fileID: 0}
@@ -1454,7 +1451,7 @@ Transform:
   m_GameObject: {fileID: 1575009542}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.07, y: 0.89, z: -0.055319488}
-  m_LocalScale: {x: 1.25, y: 1.5625, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 1334584454}
   m_RootOrder: 0

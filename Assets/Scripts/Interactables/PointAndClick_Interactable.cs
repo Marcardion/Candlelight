@@ -22,33 +22,37 @@ public class PointAndClick_Interactable : MonoBehaviour {
 
 	void OnMouseEnter()
 	{
-		if (OnEnter != null)
-		{
-			OnEnter ();
+		if (GetComponent<Collider2D> ().enabled) {
+			if (OnEnter != null) {
+				OnEnter ();
+			}
 		}
 	}
 
 	void OnMouseOver()
 	{
-		if (OnOver != null)
-		{
-			OnOver ();
+		if (GetComponent<Collider2D> ().enabled) {
+			if (OnOver != null) {
+				OnOver ();
+			}
 		}
 	}
 
 	void OnMouseExit()
 	{
-		if (OnExit != null)
-		{
-			OnExit ();
+		if (GetComponent<Collider2D> ().enabled) {
+			if (OnExit != null) {
+				OnExit ();
+			}
 		}
 	}
 
 	void OnMouseDown()
 	{
-		if (OnClick != null)
-		{
-			OnClick ();
+		if (GetComponent<Collider2D> ().enabled) {
+			if (OnClick != null) {
+				OnClick ();
+			}
 		}
 	}
 }

@@ -4,8 +4,6 @@ using UnityEngine;
 
 public class Game_Action : MonoBehaviour {
 
-	[SerializeField] private bool usable;
-
 	public virtual void StartGameAction()
 	{
 		
