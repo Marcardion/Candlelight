@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 6d6fce9f1fccf0d4eb54b98dd00e34dc
+timeCreated: 1508725908
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Lusitana
+  fontNames:
+  - Lusitana
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

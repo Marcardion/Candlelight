@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 0c6ffba2a0713494d8b9e885edc92e1d
+timeCreated: 1508725907
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: IM FELL DW Pica SC
+  fontNames:
+  - IM FELL DW Pica SC
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

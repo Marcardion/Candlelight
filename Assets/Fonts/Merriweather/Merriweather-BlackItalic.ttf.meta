@@ -1,0 +1,27 @@
+fileFormatVersion: 2
+guid: b74eea2bf6b30cc48b4018eaa283a5ed
+timeCreated: 1508725909
+licenseType: Free
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Merriweather
+  fontNames:
+  - Merriweather
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 48bd94125c401e54eb5d3e4e8c05b0bc, type: 3}
+  - {fileID: 12800000, guid: a654748216ebc60488cabcc95a11094e, type: 3}
+  - {fileID: 12800000, guid: a13d89a248469a14dafd483ac0de9ea2, type: 3}
+  - {fileID: 12800000, guid: 8dd43c3ae064a024dbddd87bc01ae323, type: 3}
+  - {fileID: 12800000, guid: 7a141a0b54006c345ad8f33fe034b8a9, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

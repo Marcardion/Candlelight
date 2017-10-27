@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f4fe0fb2fa417b944882feaeda52d180
+timeCreated: 1508804081
+licenseType: Free
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - interactableItem: {instanceID: 0}
+  - cursorFrame1: {fileID: 2800000, guid: 74d5066abba2e0d489a2da6d0d6fd5ba, type: 3}
+  - cursorFrame2: {fileID: 2800000, guid: 15087d22bd21e94438c6f167b2374f95, type: 3}
+  - action: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
