@@ -288,47 +288,42 @@ Prefab:
     - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 885.5005
+      value: 787.2907
       objectReference: {fileID: 0}
     - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -486.9565
+      value: -431.71353
       objectReference: {fileID: 0}
     - target: {fileID: 224788166917276742, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -486.9565
+      value: -431.71353
       objectReference: {fileID: 0}
     - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -845.7005
+      value: -747.4907
       objectReference: {fileID: 0}
     - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -498.7565
-      objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: debugGameKeys
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: keysValues.Array.data[0]
-      value: 3
+      value: -443.51352
       objectReference: {fileID: 0}
     - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: keysValues.Array.data[3]
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: keysValues.Array.data[6]
-      value: 4
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: debugGameKeys
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
