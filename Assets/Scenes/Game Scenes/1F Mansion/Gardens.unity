@@ -144,7 +144,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e711ccc522298bd46b101377ee04e933, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   itemID: Item3
 --- !u!114 &35618204
 MonoBehaviour:
@@ -313,7 +312,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: Amanda
   gameState: 1
 --- !u!1 &345410024
@@ -417,7 +415,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a5aa2d63c25fd43b1657bd3b456b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameActions:
   - {fileID: 1406984107}
   - {fileID: 1986863047}
@@ -461,7 +458,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bfbadabffe7964ba132843cc1db069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   soundclip: {fileID: 8300000, guid: 74d95fde936c2da47a332b812d45a377, type: 3}
   audioChannel: 0
 --- !u!1 &510931213
@@ -507,7 +503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b663ddb9d411604ea898b1251f1ff65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameActions:
   - {fileID: 727745121}
   - {fileID: 499427562}
@@ -554,7 +549,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f5844a55f289046959c6192b191438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   sceneName: Gardens
 --- !u!1 &727745119
 GameObject:
@@ -597,7 +591,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26240218b18769c4c84bdde0f14e6537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   dialogMessages:
   - {fileID: 896348162}
 --- !u!1 &819131256
@@ -644,9 +637,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68bad33e08b348641992ebcc18693b20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  comparison: 0
+  comparison: 1
   gameKey: Amanda
-  gameState: 1
+  gameState: 2
 --- !u!95 &819131259
 Animator:
   serializedVersion: 3
@@ -808,7 +801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 48a5aa2d63c25fd43b1657bd3b456b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameActions:
   - {fileID: 1173044411}
   - {fileID: 559499459}
@@ -969,7 +961,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: AmandaPosition
   gameState: 0
 --- !u!1 &1230973756
@@ -1014,7 +1005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b663ddb9d411604ea898b1251f1ff65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameActions:
   - {fileID: 1439554506}
   - {fileID: 1005628597}
@@ -1445,7 +1435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: AmandaPosition
   gameState: 1
 --- !u!1 &1439554504
@@ -1489,7 +1478,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26240218b18769c4c84bdde0f14e6537, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   dialogMessages:
   - {fileID: 1052345248}
 --- !u!1001 &1478125860
@@ -1575,6 +1563,30 @@ Prefab:
         type: 2}
       propertyPath: debugGameKeys
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881299466312796, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -230.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -230.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 50.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 50.7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
@@ -1683,5 +1695,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f5844a55f289046959c6192b191438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   sceneName: Gardens

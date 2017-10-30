@@ -176,6 +176,30 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -431.71353
       objectReference: {fileID: 0}
+    - target: {fileID: 1881299466312796, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 167.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 167.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 59.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 59.1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
   m_IsPrefabParent: 0
@@ -460,7 +484,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: George
   gameState: 3
 --- !u!1 &603179052
@@ -1003,7 +1026,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd7867066911cb0488ea731ce106461d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   dialogMessages:
   - {fileID: 1505169002}
   charAnim: {fileID: 1950648846}
@@ -1192,7 +1214,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f5844a55f289046959c6192b191438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   sceneName: Bedroom
 --- !u!1 &2139627754
 GameObject:

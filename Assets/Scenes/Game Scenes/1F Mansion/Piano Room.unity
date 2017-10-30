@@ -2328,8 +2328,8 @@ MonoBehaviour:
   interactableItem: {fileID: 1130239073}
   cursorFrame1: {fileID: 2800000, guid: e106b28912da30641b6d160c49f86fdd, type: 3}
   cursorFrame2: {fileID: 2800000, guid: df8902f09c0b3cb4997b2c838e4913a9, type: 3}
-  description: "\xC9 um caderno de partituras musicais. Talvez eu conseguisse rasgar
-    uma folha, mas isso faria muito barulho."
+  description: "\xC9 um caderno de partituras musicais. Acho que eu conseguiria cortar
+    uma folha fora, se eu tivesse algo pra cortar.."
   soundClip: {fileID: 0}
 --- !u!1 &1229925592
 GameObject:
@@ -3132,45 +3132,54 @@ Prefab:
       propertyPath: m_RootOrder
       value: 4
       objectReference: {fileID: 0}
-    - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
+    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -380.11853
+      value: 1983.9943
       objectReference: {fileID: 0}
-    - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
+    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -236.86668
+      value: -1104.8593
       objectReference: {fileID: 0}
     - target: {fileID: 224788166917276742, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -489.27536
-      objectReference: {fileID: 0}
-    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: m_LocalPosition.x
-      value: 889.62286
-      objectReference: {fileID: 0}
-    - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: m_LocalPosition.y
-      value: -489.27536
-      objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: debugGameKeys
-      value: 0
+      value: -1104.8593
       objectReference: {fileID: 0}
     - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
-      propertyPath: m_AnchoredPosition.y
-      value: -11.800018
+      propertyPath: m_LocalPosition.x
+      value: -1944.1942
       objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
+    - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
-      propertyPath: keysValues.Array.data[3]
+      propertyPath: m_LocalPosition.y
+      value: -1116.6593
+      objectReference: {fileID: 0}
+    - target: {fileID: 1881299466312796, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
+      propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 41.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 41.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -188.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -188.8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}

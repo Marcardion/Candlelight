@@ -186,6 +186,30 @@ Prefab:
       propertyPath: debugGameKeys
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1881299466312796, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 190.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 190.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 42.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 42.6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
   m_IsPrefabParent: 0
@@ -303,11 +327,11 @@ Prefab:
     m_Modifications:
     - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -3.453
+      value: -4.03
       objectReference: {fileID: 0}
     - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0.35
+      value: -0.09
       objectReference: {fileID: 0}
     - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
       propertyPath: m_LocalPosition.z
@@ -339,7 +363,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
       propertyPath: m_LocalScale.x
-      value: 13.052207
+      value: 7.279157
       objectReference: {fileID: 0}
     - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
         type: 2}
@@ -348,7 +372,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
       propertyPath: m_LocalScale.y
-      value: 25.267517
+      value: 31.865282
       objectReference: {fileID: 0}
     - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
         type: 2}
@@ -525,6 +549,117 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1198263205
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -2.734
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.606
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -0.055319488
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_RootOrder
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1449718459971504, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_Name
+      value: Locked Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalScale.x
+      value: 4.438456
+      objectReference: {fileID: 0}
+    - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
+        type: 2}
+      propertyPath: description
+      value: Ir para o quarto
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512555022187890, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_LocalScale.y
+      value: 18.486475
+      objectReference: {fileID: 0}
+    - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
+        type: 2}
+      propertyPath: sceneName
+      value: Bedroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
+        type: 2}
+      propertyPath: cursorFrame1
+      value: 
+      objectReference: {fileID: 2800000, guid: 6ae3d64c0b512ea48951dfd7d3226884, type: 3}
+    - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
+        type: 2}
+      propertyPath: cursorFrame2
+      value: 
+      objectReference: {fileID: 2800000, guid: 5be9e2a3b2192f34cadd5d2405dd4507, type: 3}
+    - target: {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489,
+        type: 2}
+      propertyPath: soundClip
+      value: 
+      objectReference: {fileID: 8300000, guid: b0222e57712f70f4fbe3881b849f0ede, type: 3}
+    - target: {fileID: 1449718459971504, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 114009920804792472, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+  m_ParentPrefab: {fileID: 100100000, guid: c32aef6a38723df43b83cf8b583d2489, type: 2}
+  m_IsPrefabParent: 0
+--- !u!1 &1198263206 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1449718459971504, guid: c32aef6a38723df43b83cf8b583d2489,
+    type: 2}
+  m_PrefabInternal: {fileID: 1198263205}
+--- !u!114 &1198263207 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 114572130507921768, guid: c32aef6a38723df43b83cf8b583d2489,
+    type: 2}
+  m_PrefabInternal: {fileID: 1198263205}
+  m_Script: {fileID: 11500000, guid: d9100a076cc3c244e86d15e2e0f41c11, type: 3}
+--- !u!114 &1198263208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1198263206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 96d2e6d0efbe8f246b3da34b9ed9c34a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactableItem: {fileID: 1198263207}
+  cursorFrame1: {fileID: 2800000, guid: 6ae3d64c0b512ea48951dfd7d3226884, type: 3}
+  cursorFrame2: {fileID: 2800000, guid: 6ae3d64c0b512ea48951dfd7d3226884, type: 3}
+  description: "O quarto est\xE1 trancado"
+  soundClip: {fileID: 0}
 --- !u!1 &1237629554
 GameObject:
   m_ObjectHideFlags: 0
@@ -824,7 +959,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: George
   gameState: 1
 --- !u!1001 &1403929210
@@ -918,7 +1052,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: Clock
   gameState: 2
 --- !u!4 &1703130628
@@ -974,5 +1107,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f5844a55f289046959c6192b191438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   sceneName: 2F Corridor

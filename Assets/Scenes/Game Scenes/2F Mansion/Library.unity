@@ -176,6 +176,30 @@ Prefab:
       propertyPath: m_LocalPosition.y
       value: -498.7565
       objectReference: {fileID: 0}
+    - target: {fileID: 1881299466312796, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 213.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: 213.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 75.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 224405229341335456, guid: 693c0ea1727dd624e829d31466380f56,
+        type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: 75.2
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
   m_IsPrefabParent: 0
@@ -368,7 +392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd7867066911cb0488ea731ce106461d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   dialogMessages:
   - {fileID: 937230102}
   charAnim: {fileID: 497661776}
@@ -678,7 +701,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: Clock
   gameState: 1
 --- !u!4 &1744134420

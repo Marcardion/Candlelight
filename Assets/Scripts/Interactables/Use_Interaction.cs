@@ -22,11 +22,12 @@ public class Use_Interaction : Interactable_Object {
 	{
 		foreach (Game_Action action in actions) 
 		{
-			if (soundClip != null) 
-			{
-				SoundManager.instance.PlaySingle (soundClip, 0);
-			}
+			
 			if (action.gameObject.activeInHierarchy) {
+				if (soundClip != null) 
+				{
+					SoundManager.instance.PlaySingle (soundClip, 0);
+				}
 				action.StartGameAction (soundClip);
 			} else 
 			{

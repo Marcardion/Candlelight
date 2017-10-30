@@ -261,7 +261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5342e748ecabf694fa485c5fb0e72f27, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameKey: John
   gameState: 2
 --- !u!1 &531562006
@@ -616,31 +615,30 @@ Prefab:
     - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: 461.10718
+      value: 1983.9943
       objectReference: {fileID: 0}
     - target: {fileID: 224724904199103274, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -248.23529
+      value: -1104.8593
       objectReference: {fileID: 0}
     - target: {fileID: 224788166917276742, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -248.23529
+      value: -1104.8593
       objectReference: {fileID: 0}
     - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.x
-      value: -421.3072
+      value: -1944.1942
       objectReference: {fileID: 0}
     - target: {fileID: 224516241163742004, guid: 693c0ea1727dd624e829d31466380f56,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -260.03528
+      value: -1116.6593
       objectReference: {fileID: 0}
-    - target: {fileID: 114387088625803044, guid: 693c0ea1727dd624e829d31466380f56,
-        type: 2}
-      propertyPath: debugGameKeys
+    - target: {fileID: 1881299466312796, guid: 693c0ea1727dd624e829d31466380f56, type: 2}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -751,7 +749,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b663ddb9d411604ea898b1251f1ff65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   gameActions:
   - {fileID: 159737279}
   - {fileID: 1322263259}
@@ -804,7 +801,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 36f5844a55f289046959c6192b191438, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   sceneName: Mansion Entrance
 --- !u!1 &1624107008
 GameObject:
@@ -846,7 +842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92bfbadabffe7964ba132843cc1db069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
   soundclip: {fileID: 8300000, guid: b0222e57712f70f4fbe3881b849f0ede, type: 3}
   audioChannel: 0
 --- !u!1 &1671041822
@@ -889,7 +884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d0dd81e97313954faed41fad1adeb6d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usable: 0
 --- !u!1001 &1688059345
 Prefab:
   m_ObjectHideFlags: 0
