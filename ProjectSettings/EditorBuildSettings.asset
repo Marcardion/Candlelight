@@ -57,7 +57,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Game Scenes/1F Mansion/Dining Room.unity
     guid: f5d4b92787572f9409e45feb8bd49acb
   - enabled: 1
-    path: Assets/Scenes/Game Scenes/1F Mansion/Living Room.unity
+    path: Assets/Scenes/Game Scenes/1F Mansion/Removed/Living Room.unity
     guid: 98cfd22226ed15a478e99444819b9ffa
   - enabled: 1
     path: Assets/Scenes/Game Scenes/1F Mansion/Gardens.unity
@@ -86,6 +86,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Scenes/Endgame/EndGame Woods.unity
     guid: 11becc8c1c2380e4abe71aa61297ddba
+  - enabled: 1
+    path: Assets/Scenes/Game Scenes/Start Scenes/Audio Resources.unity
+    guid: 8fc908a80cc602f42948844abb841924
   - enabled: 1
     path: Assets/Scenes/Placeholder/Mechanics.unity
     guid: d4010adb7f008cd4794bdf58897d3d6b
